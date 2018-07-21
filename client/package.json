@@ -1,0 +1,38 @@
+{
+  "name": "secret",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Itay Hury <itay+git@huri.biz>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^4.5.2",
+    "aes-js": "^3.1.1",
+    "bulma": "^0.7.1",
+    "es6-promisify": "^6.0.0",
+    "font-awesome": "^4.7.0",
+    "nuxt": "^1.4.1",
+    "pbkdf2": "^3.0.16",
+    "vue-clipboards": "^1.2.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.1.1",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^6.0.7"
+  }
+}

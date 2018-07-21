@@ -1,0 +1,11 @@
+@import '~bulma/sass/utilities/initial-variables';
+@import '~bulma/sass/utilities/functions';
+
+$primary: #00c9ff;
+$fa-font-path: '~font-awesome/fonts';
+$title-weight: $weight-light;
+$subtitle-weight: $weight-light;
+$section-padding: 2rem 1.5rem;
+
+@import '~font-awesome/scss/font-awesome';
+@import '~bulma';
